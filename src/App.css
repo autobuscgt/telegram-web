@@ -94,12 +94,19 @@ p{
     font-family: 'MyCustomFont';
     padding-top: 35%;
     font-size: 24px;
+    text-shadow: 3px 2px #00000025;
 }
 .containerdiv{
     margin-top: 0.5%;
     display: flex;
+    justify-content: center;
 }
 .headerContainer{
     display: flex;
     gap:50%;
+}
+a{
+    text-decoration: none;
+    color:white;
+    
 }
