@@ -21,6 +21,9 @@ function App() {
     </header>
     
     <nav>
+      <div style={{margin:'auto'}}>
+
+      
       <div class='containerdiv'>
         <div class='containerforfirstbtn' style={{marginLeft:'5px'}}>
                   <a href='/timetable'>
@@ -45,6 +48,9 @@ function App() {
                               </div>
                             </a>
                   </div>
+      </div>
+
+
       </div>
     </nav>
     
