@@ -20,6 +20,7 @@ body{
     background-size: 150% 150%;
 }
 h1{
+position: fixed;
 margin-top: 10%;
 font-size: 32px;
 color:#3A35A7;
