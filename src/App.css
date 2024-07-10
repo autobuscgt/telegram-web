@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./assets/fonts/bitcell.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 *{
     margin:0;
     padding: 0;
@@ -6,4 +13,86 @@
 body{
     background: var(--tg-theme-bg-color);
     color: var(--tg-theme-bg-color);
+}
+h1{
+padding-top: 10%;
+font-size: 32px;
+color:#3A35A7;
+
+}
+.logo{
+    position: fixed;
+    height: 57px;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+.BackGroundSVG{
+    position: fixed;
+    margin-top: 10%;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #3A35A7;
+    position:fixed;
+    color: white;
+}
+.navtext{
+    padding-top: 5%;
+    padding-left: 10px;
+}
+main{
+    padding: 60px;
+    position: relative;
+    color:rgb(0, 0, 0);
+    
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.containerforfirstbtn{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/buttons/1.svg');
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    margin-left: 1%;
+
+}
+.containerforsecondbtn{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/buttons/2.svg');
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    margin-left: 1%;
+
+}
+.containerforthirdbtn{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/buttons/3.svg');
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white; 
+    margin-left: 1%;
+ 
+}
+.textinside{
+    font-family: 'MyCustomFont';
+    padding-top: 35%;
+    font-size: 24px;
+}
+.containerdiv{
+    display: flex;
 }
