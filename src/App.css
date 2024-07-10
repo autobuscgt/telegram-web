@@ -24,8 +24,9 @@ color:#3A35A7;
 
 }
 .logo{
-    margin-left: 80%;
-    height: 57px;
+    position: relative;
+    margin-bottom: 2%;
+    height: 47px;
 }
 nav{
     width: 100%;

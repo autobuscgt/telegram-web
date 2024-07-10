@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from "./hooks/usefulComponents";
 import logo from "./images/logotype.png"
-import {Link} from 'react-router-dom'
+
 
 function App() {
   const {tg} = useTelegram();
@@ -12,9 +12,10 @@ function App() {
   },[tg])
   return (
     <div className="App">
-      <img src={logo} alt='logotype' class='logo'></img>
-    <header>
-      <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
+      
+    <header style={{padding:40}}>
+    <img src={logo} alt='logotype' class='logo' style={{float:'right'}}></img>
+    <h1 style={{ fontFamily: 'MyCustomFont',float:'left'}}>MKIT WEB APP</h1>
     </header>
     
     <nav>
