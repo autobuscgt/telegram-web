@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from "./hooks/usefulComponents";
-import logo from "./images/logotype.png"
-
-
+import logo from "./images/logotype.png";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import News from './News';
+import TimeTable from './TimeTable';
+import Homework from './Homework';
 function App() {
   const {tg} = useTelegram();
 
@@ -11,11 +13,12 @@ function App() {
     tg.ready();
   },[tg])
   return (
+    <Router>
     <div className="App">
       
     <header style={{padding:40,marginLeft:0}}>
     <img src={logo} alt='logotype' class='logo' style={{float:'right'}}></img>
-    <h1 style={{ fontFamily: 'MyCustomFont',float:'left'}}>MKIT WEB APP</h1>
+    <h1 style={{ fontFamily: 'MyCustomFont',fontSize:32,float:'left'}}>MKIT WEB APP</h1>
     </header>
     
     <nav>
@@ -53,7 +56,13 @@ function App() {
 
       </p>
      </main>
+     <Routes>
+      <Route exact path="/news" Component={News}/>
+      <Route exact path="/timetable" Component={TimeTable}/>
+      <Route exact path="/homework" Component={Homework}/>
+     </Routes>
      </div>
+     </Router>
   );
 }
 
