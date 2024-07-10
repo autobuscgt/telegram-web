@@ -21,32 +21,30 @@ function App() {
     </header>
     
     <nav>
-      <div class='center'>
-      <div class='containerdiv' style={{marginLeft:'40px'}}>
-        <div class='containerforfirstbtn' style={{marginLeft:50}}>
-          <a href='/timetable'>
-            <div class='textinside'>
-              Расписание
-            </div>
-          </a>
+      <div class='containerdiv'>
+        <div class='containerforfirstbtn' style={{marginLeft:'5px'}}>
+                  <a href='/timetable'>
+                    <div class='textinside'>
+                      Расписание
+                    </div>
+                  </a>
         </div>
         
         <div class='containerforsecondbtn'>
-          <a href='/homework'>
-            <div class='textinside'>
-              Домашнее задание
-            </div>
-          </a>
+                    <a href='/homework'>
+                      <div class='textinside'>
+                        Домашнее задание
+                      </div>
+                    </a>
         </div>
 
-        <div class='containerforthirdbtn'>
-          <a href='/news'>
-            <div class='textinside'>
-              Новости
-            </div>
-          </a>
-        </div>
-        </div>
+                  <div class='containerforthirdbtn'>
+                            <a href='/news'>
+                              <div class='textinside'>
+                                Новости
+                              </div>
+                            </a>
+                  </div>
         </div>
     </nav>
     
