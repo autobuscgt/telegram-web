@@ -6,9 +6,7 @@ import { useTelegram } from "./usefulComponents";
 function App() {
   const {onToggleButton, tg,onClose} = useTelegram();
 
-  useEffect(() =>{
-    tg.ready();
-  },[])
+ 
   return (
       <div className="App">
      <h1>Hello world</h1>
