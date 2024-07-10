@@ -5,17 +5,20 @@ import logo from "./images/logotype.png"
 
 
 function App() {
-  const {tg,onClose} = useTelegram();
+  const {tg} = useTelegram();
 
   useEffect(() =>{
     tg.ready();
   },[tg])
   return (
     <div className="App">
-    <header class='headerContainer'>
+    <header>
+      <div style={{marginTop:10}}>
       <img src={logo} alt='logotype' class='logo'></img>
+        </div>
       <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
     </header>
+
     <nav>
       <div class='containerdiv'>
         <div class='containerforfirstbtn'>
@@ -49,7 +52,6 @@ function App() {
         
 
       </p>
-      <button onClick={onClose}>Закрыть</button>
      </main>
      </div>
   );
