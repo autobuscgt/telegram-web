@@ -102,3 +102,10 @@ a{
     text-decoration: none;
     color:white;
 }
+
+    .center {
+        padding: 24px;
+        margin: 24px;
+        resize: both;
+        overflow: auto;
+    }
