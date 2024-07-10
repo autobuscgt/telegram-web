@@ -20,8 +20,8 @@ function App() {
     
     <nav>
       <div class='containerdiv'>
-        <div class='containerforfirstbtn'>
-          <a href='https://www.youtube.com/watch?v=eW_lU8OdlN0'>
+        <div class='containerforfirstbtn' style={{marginLeft:50}}>
+          <a href='/timetable'>
             <div class='textinside'>
               Расписание
             </div>
@@ -29,7 +29,7 @@ function App() {
         </div>
         
         <div class='containerforsecondbtn'>
-          <a href='https://www.youtube.com/watch?v=eW_lU8OdlN0'>
+          <a href='/homework'>
             <div class='textinside'>
               Домашнее задание
             </div>
@@ -37,7 +37,7 @@ function App() {
         </div>
 
         <div class='containerforthirdbtn'>
-          <a href='https://www.youtube.com/watch?v=eW_lU8OdlN0'>
+          <a href='/news'>
             <div class='textinside'>
               Новости
             </div>
