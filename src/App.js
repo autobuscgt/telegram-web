@@ -12,13 +12,11 @@ function App() {
   },[tg])
   return (
     <div className="App">
+      <img src={logo} alt='logotype' class='logo'></img>
     <header>
-      
-      <img src={logo} alt='logotype' class='logo' style={{marginTop:10}}></img>
-    
       <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
     </header>
-
+    
     <nav>
       <div class='containerdiv'>
         <div class='containerforfirstbtn'>
@@ -49,7 +47,8 @@ function App() {
     
      <main>
       <p>
-        
+     
+      
 
       </p>
      </main>
