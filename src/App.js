@@ -24,7 +24,7 @@ function App() {
     <nav>
       <div class='containerdiv'>
         <div class='containerforfirstbtn' style={{marginLeft:50}}>
-          <a href='/timetable'>
+          <a href='/'>
             <div class='textinside'>
               Расписание
             </div>
@@ -32,7 +32,7 @@ function App() {
         </div>
         
         <div class='containerforsecondbtn'>
-          <a href='/homework'>
+          <a href='/'>
             <div class='textinside'>
               Домашнее задание
             </div>
@@ -40,7 +40,7 @@ function App() {
         </div>
 
         <div class='containerforthirdbtn'>
-          <a href='/news'>
+          <a href='/'>
             <div class='textinside'>
               Новости
             </div>
@@ -57,9 +57,9 @@ function App() {
       </p>
      </main>
      <Routes>
-      <Route exact path="/news" Component={News}/>
-      <Route exact path="/timetable" Component={TimeTable}/>
-      <Route exact path="/homework" Component={Homework}/>
+      <Route exact path="/" Component={News}/>
+      <Route exact path="/" Component={TimeTable}/>
+      <Route exact path="/" Component={Homework}/>
      </Routes>
      </div>
      </Router>
