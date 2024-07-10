@@ -17,7 +17,7 @@ function App() {
     <div className="App">
     <header style={{padding:40,marginLeft:0}}>
     <img src={logo} alt='logotype' class='logo' style={{float:'right',paddingBottom:15}}></img>
-    <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'50px',float:'left'}}>MKIT WEB APP</h1>
+    <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
     </header>
     
     <nav>
