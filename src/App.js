@@ -20,7 +20,7 @@ function App() {
     <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
     </header>
     
-    <nav>
+    <nav style={{justifyItems:'center'}}>
       <div class='containerdiv'>
         <div class='containerforfirstbtn' style={{marginLeft:50}}>
           <a href='/timetable'>
