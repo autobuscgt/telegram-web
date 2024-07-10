@@ -5,7 +5,7 @@ import { useTelegram } from "./usefulComponents";
 const tg = window.Telegram.WebApp;
 
 function App() {
-  const {onToggleButton, tg} = userTelegram();
+  const {onToggleButton, tg} = useTelegram();
 
   useEffect(() =>{
     tg.ready();
