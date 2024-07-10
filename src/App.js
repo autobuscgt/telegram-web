@@ -3,9 +3,6 @@ import './App.css';
 import { useTelegram } from "./hooks/usefulComponents";
 import logo from "./images/logotype.png"
 import back from "./images/Back.svg"
-import firstbtn from './images/buttons/1.svg'
-import secondbtn from './images/buttons/2.svg'
-import thirdbtn from './images/buttons/3.svg'
 
 function App() {
   const {tg,onClose} = useTelegram();
@@ -22,7 +19,7 @@ function App() {
     <nav>
       <div class='containerdiv'>
         <div class='containerforfirstbtn'>
-          <a>
+          <a href='#'>
             <div class='textinside'>
               Расписание
             </div>
@@ -30,7 +27,7 @@ function App() {
         </div>
         
         <div class='containerforsecondbtn'>
-          <a>
+          <a href='#'>
             <div class='textinside'>
               Домашнее задание
             </div>
@@ -38,7 +35,7 @@ function App() {
         </div>
 
         <div class='containerforthirdbtn'>
-          <a>
+          <a href='#'>
             <div class='textinside'>
               Новости
             </div>
@@ -51,7 +48,7 @@ function App() {
      <main>
       <p>
         
-        
+
       </p>
      </main>
      </div>
