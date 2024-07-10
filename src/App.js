@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from "./hooks/usefulComponents";
 import logo from "./images/logotype.png"
-
+import {Link} from 'react-router-dom'
 
 function App() {
   const {tg} = useTelegram();
