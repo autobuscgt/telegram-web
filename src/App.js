@@ -21,7 +21,7 @@ function App() {
     </header>
     
     <nav>
-      <div style={{margin:'auto'}}>
+      <div style={{margin:'auto',justifyContent:'center'}}>
 
       
       <div class='containerdiv'>
