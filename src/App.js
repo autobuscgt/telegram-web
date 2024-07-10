@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
     <header>
-      <div style={{marginTop:10}}>
-      <img src={logo} alt='logotype' class='logo'></img>
-        </div>
+      
+      <img src={logo} alt='logotype' class='logo' style={{marginTop:10}}></img>
+    
       <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
     </header>
 
