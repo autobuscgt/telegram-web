@@ -5,14 +5,11 @@ import { useTelegram } from "./usefulComponents";
 const tg = window.Telegram.WebApp;
 
 function App() {
-  const {onToggleButton, tg} = useTelegram();
+  const {onToggleButton, tg,onClose} = useTelegram();
 
   useEffect(() =>{
     tg.ready();
   },[])
-  const onClose = () =>{
-    tg.close()
-  }
   return (
       <div className="App">
      <h1>Hello world</h1>
