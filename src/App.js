@@ -19,7 +19,7 @@ function App() {
     <nav>
       <div class='containerdiv'>
         <div class='containerforfirstbtn'>
-          <a href='#'>
+          <a href='https://www.youtube.com/watch?v=eW_lU8OdlN0'>
             <div class='textinside'>
               Расписание
             </div>
@@ -27,7 +27,7 @@ function App() {
         </div>
         
         <div class='containerforsecondbtn'>
-          <a href='#'>
+          <a href='https://www.youtube.com/watch?v=eW_lU8OdlN0'>
             <div class='textinside'>
               Домашнее задание
             </div>
@@ -35,7 +35,7 @@ function App() {
         </div>
 
         <div class='containerforthirdbtn'>
-          <a href='#'>
+          <a href='https://www.youtube.com/watch?v=eW_lU8OdlN0'>
             <div class='textinside'>
               Новости
             </div>
