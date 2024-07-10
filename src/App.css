@@ -15,9 +15,12 @@ body{
     background: var(--tg-theme-bg-color);
     color: var(--tg-theme-bg-color);
     background-color: white;
+    background-image: url('./images/Back.svg');
+    
+    background-size: 150% 150%;
 }
 h1{
-padding-top: 10%;
+margin-top: 10%;
 font-size: 32px;
 color:#3A35A7;
 
@@ -26,11 +29,7 @@ color:#3A35A7;
     position: fixed;
     height: 57px;
     margin-top: 8%;
-    margin-left: 20%;
-}
-.BackGroundSVG{
-    position: fixed;
-    margin-top:15%;
+    margin-left: 90%;
 }
 nav{
     width: 100%;

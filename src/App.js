@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from "./hooks/usefulComponents";
 import logo from "./images/logotype.png"
-import back from "./images/Back.svg"
+
 
 function App() {
   const {tg,onClose} = useTelegram();
@@ -43,7 +43,6 @@ function App() {
         </div>
         </div>
     </nav>
-     <img src={back} alt=" " class='BackGroundSVG'></img>
      <button onClick={onClose}>Закрыть</button>
      <main>
       <p>
