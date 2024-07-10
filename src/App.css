@@ -52,38 +52,38 @@ p{
 
 .containerforfirstbtn{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-image: url('./images/buttons/1.svg');
     background-size: cover;
     background-size: 100% 100%;
     text-align: center;
     color: white;
     margin-top: 0.5%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .containerforsecondbtn{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-image: url('./images/buttons/2.svg');
     background-size: cover;
     background-size: 100% 100%;
     text-align: center;
     color: white;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 0.5%;
 }
 .containerforthirdbtn{
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-image: url('./images/buttons/3.svg');
     background-size: cover;
     background-size: 100% 100%;
     text-align: center;
     color: white; 
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 0.5%;
 }
 .textinside{
