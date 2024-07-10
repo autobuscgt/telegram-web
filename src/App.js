@@ -43,12 +43,13 @@ function App() {
         </div>
         </div>
     </nav>
-     <button onClick={onClose}>Закрыть</button>
+    
      <main>
       <p>
         
 
       </p>
+      <button onClick={onClose}>Закрыть</button>
      </main>
      </div>
   );
