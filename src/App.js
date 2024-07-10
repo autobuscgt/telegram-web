@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from "./usefulComponents";
-const tg = window.Telegram.WebApp;
+
 
 function App() {
   const {onToggleButton, tg,onClose} = useTelegram();
