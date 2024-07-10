@@ -21,7 +21,7 @@ function App() {
     </header>
     
     <nav style={{justifyItems:'center'}}>
-      <div class='containerdiv'>
+      <div class='containerdiv' style={{marginLeft:'40px'}}>
         <div class='containerforfirstbtn' style={{marginLeft:50}}>
           <a href='/timetable'>
             <div class='textinside'>
