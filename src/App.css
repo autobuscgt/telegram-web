@@ -25,7 +25,6 @@ color:#3A35A7;
 }
 .logo{
     position: relative;
-    margin-bottom: 2%;
     height: 47px;
 }
 nav{
@@ -59,8 +58,8 @@ p{
     background-size: 100% 100%;
     text-align: center;
     color: white;
+    margin-top: 0.5%;
     margin-left: 1%;
-
 }
 .containerforsecondbtn{
     position: relative;
@@ -72,7 +71,7 @@ p{
     text-align: center;
     color: white;
     margin-left: 1%;
-
+    margin-top: 0.5%;
 }
 .containerforthirdbtn{
     position: relative;
@@ -84,7 +83,7 @@ p{
     text-align: center;
     color: white; 
     margin-left: 1%;
- 
+    margin-top: 0.5%;
 }
 .textinside{
     font-family: 'MyCustomFont';
@@ -101,5 +100,4 @@ p{
 a{
     text-decoration: none;
     color:white;
-    
 }
