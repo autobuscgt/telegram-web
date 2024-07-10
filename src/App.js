@@ -12,7 +12,7 @@ function App() {
   },[tg])
   return (
     <div className="App">
-    <header>
+    <header class='headerContainer'>
       <img src={logo} alt='logotype' class='logo'></img>
       <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
     </header>
