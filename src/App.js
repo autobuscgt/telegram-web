@@ -18,9 +18,8 @@ function App() {
       
     <header style={{padding:'40px',paddingLeft:'40%'}}>
     <img src={logo} alt='logotype' class='logo' style={{paddingBottom:15}}></img>
-    <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
     </header>
-    
+    <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
     <nav style={{padding:'7 7 7 7'}}>
       <div style={{marginLeft:'2%',justifyContent:'center'}}>
       <div class='containerdiv'>
