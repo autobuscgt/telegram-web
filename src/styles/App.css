@@ -24,6 +24,11 @@ h1 {
     color: #3A35A7;
     z-index: 1;
 }
+.nameof{
+    position: relative;
+    left: 0;
+    bottom: 15px;
+}
 
 .logo {
     position: relative;

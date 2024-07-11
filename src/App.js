@@ -19,7 +19,7 @@ function App() {
     <Router>
       <div className="App">
         <header style={{ margin: '45px 45px 45px 45px' }}>
-          <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
+          <h1 style={{ fontFamily: 'MyCustomFont'}} class='nameof'>MKIT WEB APP</h1>
           <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15, float: 'right' }}></img>
         </header>
 
