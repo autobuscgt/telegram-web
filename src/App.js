@@ -22,7 +22,7 @@ function App() {
         <Header/>
 
         <NavBar/>
-        <Footer/>
+        
         <Routes>
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
@@ -31,6 +31,7 @@ function App() {
         </Routes>
         
         <News />
+        <Footer/>
       </div>
 
     </Router>
