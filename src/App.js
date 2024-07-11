@@ -31,8 +31,8 @@ function App() {
           <button class='NavBar' id='Nav2' style={{ fontFamily: 'MyCustomFont' }}>
             Расписание
           </button>
-          <button class='NavBar' id='Nav3' style={{ fontFamily: 'MyCustomFont' }}>
-            Домашнее задание
+          <button class='NavBar' id='Nav3' style={{ fontFamily: 'MyCustomFont', fontSize:'20px'}}>
+            ДЗ
           </button>
           <button class='NavBar' id='Nav4' style={{ fontFamily: 'MyCustomFont' }}>
             Новости
