@@ -23,13 +23,12 @@ position: left;
 margin-top: 1%;
 font-size: 32px;
 color:#3A35A7;
+margin-right: 40%;
 
 }
 .logo{  
-    top: 1.5%;
     position: absolute;
     height: 47px;
-
 }
 nav
 {
