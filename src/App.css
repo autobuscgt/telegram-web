@@ -41,8 +41,8 @@ nav
     padding-left: 10px;
 }
 
-.containerforfirstbtn{
-    position: static;
+.container1btn{
+    position: relative;
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/1.svg');
@@ -52,8 +52,8 @@ nav
     margin-left: 2px;
     vertical-align: middle;
 }
-.containerforsecondbtn{
-    position: static;
+.container2btn{
+    position: relative;
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/2.svg');
@@ -62,11 +62,21 @@ nav
     margin-left: 2px;
     margin-top: 0.5%;
 }
-.containerforthirdbtn{
-    position: static;
+.container3btn{
+    position: relative;
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/3.svg');
+    background-size: 100% 100%;
+    color: white; 
+    margin-left: 2px;
+    margin-top: 0.5%;
+}
+.container4btn{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-image: url('./images/buttons/4.svg');
     background-size: 100% 100%;
     color: white; 
     margin-left: 2px;

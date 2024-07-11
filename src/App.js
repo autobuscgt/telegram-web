@@ -25,21 +25,21 @@ function App() {
         <nav style={{ padding: '7 7 7 7' }}>
           <div style={{ marginLeft: '2%', justifyContent: 'center' }}>
             <div class='containerdiv'>
-              <div class='textinside'>
+              <div class='container1btn' style={{ marginLeft: '5px' }}>
                 <a href="/">
-                  <div>
+                  <div class='textinside'>
                     Главная
                   </div>
                 </a>
               </div>
-              <div class='containerforfirstbtn' style={{ marginLeft: '5px' }}>
+              <div class='container2btn' style={{ marginLeft: '5px' }}>
                 <a href='/timetable'>
                   <div class='textinside'>
                     Расписание
                   </div>
                 </a>
               </div>
-              <div class='containerforsecondbtn'>
+              <div class='container3btn'>
                 <a href='/homework'>
                   <div class='textinside'>
                     Домашнее задание
@@ -47,7 +47,7 @@ function App() {
                 </a>
               </div>
 
-              <div class='containerforthirdbtn'>
+              <div class='container4btn'>
                 <a href='/news'>
                   <div class='textinside'>
                     Новости
