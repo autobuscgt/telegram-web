@@ -20,7 +20,7 @@ function App() {
     <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
     </header>
     
-    <nav style={{padding:'10 10 10 10'}}>
+    <nav style={{padding:'7 7 7 7'}}>
       <div style={{marginLeft:'2%',justifyContent:'center'}}>
       <div class='containerdiv'>
         <div class='containerforfirstbtn' style={{marginLeft:'5px'}}>
