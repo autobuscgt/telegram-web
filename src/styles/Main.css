@@ -11,9 +11,11 @@
 
 }
 ul{
+    list-style: none;
     padding-left: 15px;
 }
 li{
+    list-style: none;
     color:#3A35A7;
     padding: 5px;
     
