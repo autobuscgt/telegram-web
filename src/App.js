@@ -8,6 +8,7 @@ import News from './pages/News';
 import TimeTable from './pages/TimeTable';
 import Homework from './pages/Homework';
 import Main from './pages/Main';
+import NavBar from './NavBar';
 function App() {
   const { tg } = useTelegram();
 
@@ -22,24 +23,7 @@ function App() {
           <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15, paddingLeft: '100px' }}></img>
           <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px', float: 'left' }}>MKIT WEB APP</h1>
         </header>
-
-        <nav style={{ paddingLeft:'1px' }}>
-        <div>
-          <button class='NavBar' id='Nav1' style={{ fontFamily: 'MyCustomFont' }}>
-            Главная
-          </button>
-          <button class='NavBar' id='Nav2' style={{ fontFamily: 'MyCustomFont' }}>
-            Расписание
-          </button>
-          <button class='NavBar' id='Nav3' style={{ fontFamily: 'MyCustomFont', fontSize:'20px'}}>
-            ДЗ
-          </button>
-          <button class='NavBar' id='Nav4' style={{ fontFamily: 'MyCustomFont' }}>
-            Новости
-          </button>
-          </div>
-        </nav>
-        
+        <NavBar/>
         <Routes>
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
