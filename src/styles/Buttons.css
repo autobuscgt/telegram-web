@@ -7,8 +7,8 @@ button{
 }
 .NavBar {
     position: relative;
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
     background-size: 100% 100%;
     color: white;
     margin-left: 5px;
@@ -47,7 +47,4 @@ button{
     transform: scale(1.04);
     transition: 200ms;
 }
-.NavBar:active{
-    border: 5px solid rgba(255, 255, 255, 0.3);
-    transform: scale(1.02);
-}
+
