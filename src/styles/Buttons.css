@@ -1,0 +1,53 @@
+* {
+    font-family: 'MyCustomFont';
+    font-size: 20px;
+}
+button{
+    margin-right: 5px;
+}
+.NavBar {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-size: 100% 100%;
+    color: white;
+    margin-left: 5px;
+    margin-top: 0.5%;
+    border: none;
+    background-size: 100% 100%;
+    transition: 200ms;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+#Nav1 {
+    background: #83BF00;
+    box-shadow: 5px 5px 0px 0px #008736;
+}
+
+#Nav2 {
+    background: #00A7E5;
+    box-shadow: 5px 5px 0px 0px #0565BC;
+}
+
+#Nav3 {
+    background: #FF9700;
+    box-shadow: 5px 5px 0px 0px #D17016;
+}
+
+#Nav4 {
+    background: #E1232D;
+    box-shadow: 5px 5px 0px 0px #50001E;
+}
+
+.NavBar:hover {
+    transform: scale(1.04);
+    transition: 200ms;
+}
+.NavBar:active{
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    transform: scale(1.02);
+}

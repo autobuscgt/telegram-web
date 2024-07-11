@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css';
-import './Main.css'
-import './TextAnim.css'
+import '../styles/App.css';
+import '../styles/Main.css'
+import '../styles/TextAnim.css'
 function Main() {
     return (
         <div style={{ padding: 10 }}>

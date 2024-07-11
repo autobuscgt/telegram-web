@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import './App.css';
+import './styles/App.css';
+import './styles/Buttons.css'
 import { useTelegram } from "./hooks/usefulComponents";
 import logo from "./images/logotype.png";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -23,38 +24,19 @@ function App() {
         </header>
 
         <nav style={{ paddingLeft:'1px' }}>
-          <div style={{ marginLeft: '2%', justifyContent: 'center' }}>
-            <div class='containerdiv'>
-              <div class='container1btn' style={{ marginLeft: '5px' }}>
-                <a href="/">
-                  <div class='textinside'>
-                    Главная
-                  </div>
-                </a>
-              </div>
-              <div class='container2btn' style={{ marginLeft: '5px' }}>
-                <a href='/timetable'>
-                  <div class='textinside'>
-                    Расписание
-                  </div>
-                </a>
-              </div>
-              <div class='container3btn'>
-                <a href='/homework'>
-                  <div class='textinside'>
-                    Домашнее задание
-                  </div>
-                </a>
-              </div>
-
-              <div class='container4btn'>
-                <a href='/news'>
-                  <div class='textinside'>
-                    Новости
-                  </div>
-                </a>
-              </div>
-            </div>
+        <div>
+          <button class='NavBar' id='Nav1' style={{ fontFamily: 'MyCustomFont' }}>
+            Главная
+          </button>
+          <button class='NavBar' id='Nav2' style={{ fontFamily: 'MyCustomFont' }}>
+            Расписание
+          </button>
+          <button class='NavBar' id='Nav3' style={{ fontFamily: 'MyCustomFont' }}>
+            Домашнее задание
+          </button>
+          <button class='NavBar' id='Nav4' style={{ fontFamily: 'MyCustomFont' }}>
+            Новости
+          </button>
           </div>
         </nav>
         

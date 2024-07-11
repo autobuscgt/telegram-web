@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../styles/App.css';
 function TimeTable() {
   return (
     <div>
@@ -8,7 +8,7 @@ function TimeTable() {
       <option value={'9IS>'}>
         9-ИС
       </option>
-      
+
 
       </select>
 
