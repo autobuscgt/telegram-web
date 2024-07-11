@@ -1,9 +1,0 @@
-.button{
-    padding: 10px 15px;
-    border: 0;
-    border-radius: 30px;
-    background: var(--tg-theme-bg-color);
-    color: var(--tg-theme-bg-color);
-    outline: none;
-    cursor: pointer;
-}

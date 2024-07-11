@@ -7,8 +7,8 @@ import News from './pages/News';
 import TimeTable from './pages/TimeTable';
 import Homework from './pages/Homework';
 import Main from './pages/Main';
-import NavBar from './NavBar';
-import Header from './pages/Header';
+import NavBar from './components/NavBar';
+import Header from './components/Header';
 function App() {
   const { tg } = useTelegram();
 
@@ -21,6 +21,7 @@ function App() {
         <Header/>
 
         <NavBar/>
+        <Footer/>
         <Routes>
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
