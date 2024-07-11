@@ -16,7 +16,7 @@
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 200%;}
+  to{width: 100%;}
 }
 
 @keyframes animated-cursor{
