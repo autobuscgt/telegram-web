@@ -7,16 +7,15 @@ import '../styles/MainTextAnim.css'
 function Main() {
     return (
         <div style={{ padding: 10 }} class='for_main_div'>
-            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '24px' }} class='text-load' data-text="Добро пожаловать в">
+            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px' }} class='text-load' data-text="Добро пожаловать в">
                 Добро пожаловать в<br />
             </h1>
-            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '24px' }} class='text-load' data-text="WEB-ПРИЛОЖЕНИЕ MKIT!">
+            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px' }} class='text-load' data-text="WEB-ПРИЛОЖЕНИЕ MKIT!">
                 WEB-ПРИЛОЖЕНИЕ MKIT!
             </h1>
 
 
             <div class='text-opacity'>
-
 
                 <p class='perenos'>
                     Здесь, в Московском Колледже Информационных Технологий, мы гордимся своей приверженностью к передовому образованию и подготовке высококвалифицированных специалистов в области информационных технологий.<br />
