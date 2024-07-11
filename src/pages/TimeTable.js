@@ -3,7 +3,15 @@ import '../App.css';
 function TimeTable() {
   return (
     <div>
-      <h1>Timetable</h1>
+      <h1>Расписание</h1>
+      <select>
+      <option value={'9IS>'}>
+        9-ИС
+      </option>
+      
+
+      </select>
+
     </div>
   );
 }

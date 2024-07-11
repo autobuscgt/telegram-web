@@ -26,7 +26,7 @@ color:#3A35A7;
 
 }
 .logo{
-    position: relative;
+    position: fixed;
     height: 47px;
 }
 nav
@@ -82,6 +82,7 @@ nav
     text-align: center;
 }
 .containerdiv{
+    left: 15%;
     margin-top: 0.5%;
     display: flex;
     margin: auto;
