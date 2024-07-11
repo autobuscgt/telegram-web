@@ -20,15 +20,15 @@ body {
 }
 
 h1 {
-    position: left;
-    margin-top: 1%;
     font-size: 32px;
     color: #3A35A7;
+    bottom: 15px;
 }
 
 .logo {
-    position: absolute;
+    position: relative;
     height: 47px;
+    bottom: 15px;
 }
 
 nav {
