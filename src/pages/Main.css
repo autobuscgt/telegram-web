@@ -1,9 +1,10 @@
 *{
-    font-size: 24px;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 1px 1px #00000025;
 }
 .perenos {
+    font-size: 16px;
     margin:20px ;
     padding:10px;
     width:auto;
