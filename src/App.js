@@ -55,7 +55,7 @@ function App() {
           <Route exact path="/homework" Component={Homework} />
         </Routes>
         <footer class="cfooter">
-          <div class='textinside' style={{position:screenLeft}}>Создатель AUTOBUSCGT</div>
+          <div class='textinside' style={{float:'left'}}>Создатель AUTOBUSCGT</div>
         </footer>
       </div>
     </Router>
