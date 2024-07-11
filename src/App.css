@@ -43,7 +43,7 @@ nav
 }
 
 .containerforfirstbtn{
-    position: relative;
+    position: static;
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/1.svg');
@@ -54,7 +54,7 @@ nav
     vertical-align: middle;
 }
 .containerforsecondbtn{
-    position: relative;
+    position: static;
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/2.svg');
@@ -64,7 +64,7 @@ nav
     margin-top: 0.5%;
 }
 .containerforthirdbtn{
-    position: relative;
+    position: static;
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/3.svg');
