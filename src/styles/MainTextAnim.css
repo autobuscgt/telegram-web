@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'BetterVCR';
+  src: url('../assets/fonts/BetterVCR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .text-load {
   position: relative;
   color: rgba(0, 0, 0, .3);
