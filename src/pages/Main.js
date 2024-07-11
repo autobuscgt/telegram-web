@@ -6,7 +6,7 @@ import '../styles/OpacityPrewie.css'
 function Main() {
     return (
         <div style={{ padding: 10 }}>
-            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px' }} class='textwriter'>Добро пожаловать в WEB-ПРИЛОЖЕНИЕ MKIT!</h1>
+            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '24px' }} class='textwriter'>Добро пожаловать в WEB-ПРИЛОЖЕНИЕ MKIT!</h1>
             <div class = 'text-opacity'>
 
 
