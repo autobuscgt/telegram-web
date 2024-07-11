@@ -49,16 +49,17 @@ function App() {
             </div>
           </div>
         </nav>
-        <Routes>
-          <Route exact path="/news" Component={News} />
-          <Route exact path="/timetable" Component={TimeTable} />
-          <Route exact path="/homework" Component={Homework} />
-        </Routes>
         <footer>
           <div class="cfooter">
             <div class='textinside' style={{float:'left'}}>Создатель AUTOBUSCGT</div>
           </div>
         </footer>
+        <Routes>
+          <Route exact path="/news" Component={News} />
+          <Route exact path="/timetable" Component={TimeTable} />
+          <Route exact path="/homework" Component={Homework} />
+        </Routes>
+ 
       </div>
     </Router>
   );
