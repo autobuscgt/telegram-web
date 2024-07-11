@@ -17,12 +17,12 @@ function App() {
     <Router>
       <div className="App">
 
-        <header style={{ padding: '40px' }}>
+        <header style={{ padding: '50px' }}>
           <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15, paddingLeft: '100px' }}></img>
           <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px', float: 'left' }}>MKIT WEB APP</h1>
         </header>
 
-        <nav style={{ padding: '7 7 7 7' }}>
+        <nav style={{ paddingLeft:'1px' }}>
           <div style={{ marginLeft: '2%', justifyContent: 'center' }}>
             <div class='containerdiv'>
               <div class='container1btn' style={{ marginLeft: '5px' }}>
