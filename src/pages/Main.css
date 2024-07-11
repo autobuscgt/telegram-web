@@ -8,7 +8,8 @@
     margin-top: 0.5%;
     padding:2px;
     width:auto;
-    word-break:break-all;
+    white-space: break-spaces;
+
 }
 ul{
     padding-left: 15px;
