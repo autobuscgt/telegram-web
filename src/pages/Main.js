@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
 import './Main.css'
+import './TextAnim.css'
 function Main() {
     return (
         <div style={{padding:10}}>
-            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '150%' }}>Добро пожаловать в WEB-ПРИЛОЖЕНИЕ MKIT!</h1>
+            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '150%' }} class='textwriter'>Добро пожаловать в WEB-ПРИЛОЖЕНИЕ MKIT!</h1>
             <p class='perenos'>
                 Здесь, в Московском Колледже Информационных Технологий, мы гордимся своей приверженностью к передовому образованию и подготовке высококвалифицированных специалистов в области информационных технологий.<br />
                 На нашем веб-сайте вы сможете найти все необходимое, чтобы сделать свой опыт обучения максимально продуктивным и комфортным. Вот что мы можем вам предложить:
