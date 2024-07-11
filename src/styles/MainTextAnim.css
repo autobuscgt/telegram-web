@@ -1,13 +1,13 @@
 .text-load {
   position: relative;
   color: rgba(0, 0, 0, .3);
-  font-size: 24px
+  font-size: 26px
 }
 .text-load:before {
   content: attr(data-text);
   position: absolute;
   overflow: hidden;
-  max-width: 10em;
+  max-width: 100%;
   white-space: nowrap;
   color: #3A35A7;
   animation: loading 6s ease-in-out;
