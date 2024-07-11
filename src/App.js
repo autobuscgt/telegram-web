@@ -18,10 +18,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-
-        <header style={{margin:'30px 30px 30px 30px'}}>
-          <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15,float:'right'}}></img>
-          <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px', float: 'left' }}>MKIT WEB APP</h1>
+        <header style={{ margin: '45px 45px 45px 45px' }}>
+          <h1 style={{ fontFamily: 'MyCustomFont'}}>MKIT WEB APP</h1>
+          <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15, float: 'right' }}></img>
         </header>
 
         <NavBar/>
@@ -31,11 +30,12 @@ function App() {
           <Route exact path="/homework" Component={Homework} />
           <Route exact path="/" Component={Main} />
         </Routes>
-
+        
+        <News />
       </div>
-      
+
     </Router>
-    
+
   );
 }
 
