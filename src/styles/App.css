@@ -26,8 +26,7 @@ h1 {
 }
 .nameof{
     position: relative;
-    left: 0;
-    bottom: 15px;
+    left: -2%;
 }
 
 .logo {
