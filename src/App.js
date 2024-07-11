@@ -2,67 +2,64 @@ import React, { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from "./hooks/usefulComponents";
 import logo from "./images/logotype.png";
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import News from './pages/News';
 import TimeTable from './pages/TimeTable';
 import Homework from './pages/Homework';
 function App() {
-  const {tg} = useTelegram();
+  const { tg } = useTelegram();
 
-  useEffect(() =>{
+  useEffect(() => {
     tg.ready();
-  },[tg])
+  }, [tg])
   return (
     <Router>
-    <div className="App">
-      
-    <header style={{padding:'40px'}}>
-    <img src={logo} alt='logotype' class='logo' style={{paddingBottom:15,paddingLeft:'100px'}}></img>
-    <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
-    </header>
+      <div className="App">
 
-    <nav style={{padding:'7 7 7 7'}}>
-      <div style={{marginLeft:'2%',justifyContent:'center'}}>
-      <div class='containerdiv'>
-        <div class='containerforfirstbtn' style={{marginLeft:'5px'}}>
-                  <a href='/timetable'>
-                    <div class='textinside'>
-                      Расписание
-                    </div>
-                  </a>
-        </div>
-        <div class='containerforsecondbtn'>
-                    <a href='/homework'>
-                      <div class='textinside'>
-                        Домашнее задание
-                      </div>
-                    </a>
-        </div>
+        <header style={{ padding: '40px' }}>
+          <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15, paddingLeft: '100px' }}></img>
+          <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px', float: 'left' }}>MKIT WEB APP</h1>
+        </header>
 
-                  <div class='containerforthirdbtn'>
-                            <a href='/news'>
-                              <div class='textinside'>
-                                Новости
-                              </div>
-                            </a>
+        <nav style={{ padding: '7 7 7 7' }}>
+          <div style={{ marginLeft: '2%', justifyContent: 'center' }}>
+            <div class='containerdiv'>
+              <div class='containerforfirstbtn' style={{ marginLeft: '5px' }}>
+                <a href='/timetable'>
+                  <div class='textinside'>
+                    Расписание
                   </div>
-      </div>
-      </div>
-    </nav>
-     <main>
-      <p>
-     
-      
+                </a>
+              </div>
+              <div class='containerforsecondbtn'>
+                <a href='/homework'>
+                  <div class='textinside'>
+                    Домашнее задание
+                  </div>
+                </a>
+              </div>
 
-      </p>
-     </main>
-     <Routes>
-      <Route exact path="/news" Component={News}/>
-      <Route exact path="/timetable" Component={TimeTable}/>
-      <Route exact path="/homework" Component={Homework}/>
-     </Routes>
-     </div>
-     </Router>
+              <div class='containerforthirdbtn'>
+                <a href='/news'>
+                  <div class='textinside'>
+                    Новости
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <Routes>
+          <Route exact path="/news" Component={News} />
+          <Route exact path="/timetable" Component={TimeTable} />
+          <Route exact path="/homework" Component={Homework} />
+        </Routes>
+        <footer>
+          <div class='textinside'>Создатель AUTOBUSCGT</div>
+
+        </footer>
+      </div>
+    </Router>
   );
 }
 
