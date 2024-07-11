@@ -24,3 +24,15 @@
   to{border-right-color: transparent;}
   
 }
+
+.text-opacity{
+    animation: quick_opacity 1.5s;
+}
+@keyframes quick_opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
