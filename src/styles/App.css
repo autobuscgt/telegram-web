@@ -11,6 +11,8 @@
     box-sizing: border-box;
 }
 
+    
+
 
 body {
     background: var(--tg-theme-bg-color);
@@ -28,6 +30,8 @@ h1 {
     position: relative;
     left: 5px;
 }
+
+
 
 
 nav {

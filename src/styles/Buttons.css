@@ -2,6 +2,9 @@
 button{
     margin-right: 5px;
 }
+@media (max-height: 720px) {
+    .NavBar{width: 60px;height: 60px;}
+}
 .NavBar {
     position: relative;
     width: 85px;
