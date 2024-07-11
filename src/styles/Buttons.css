@@ -1,14 +1,11 @@
-* {
-    font-family: 'MyCustomFont';
-    font-size: 20px;
-}
+
 button{
     margin-right: 5px;
 }
 .NavBar {
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-size: 100% 100%;
     color: white;
     margin-left: 5px;
