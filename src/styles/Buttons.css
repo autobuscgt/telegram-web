@@ -9,7 +9,6 @@ button{
     background-size: 100% 100%;
     color: white;
     margin-left: 5px;
-    margin-top: 0.5%;
     border: none;
     background-size: 100% 100%;
     transition: 200ms;
@@ -17,7 +16,7 @@ button{
     outline: none;
     cursor: pointer;
     font-size: 100%;
-    margin-top: 0.5%;
+    margin-top: 1%;
     padding:2px;
     white-space: break-spaces;
 }
