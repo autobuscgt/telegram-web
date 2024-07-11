@@ -1,0 +1,11 @@
+*{
+    animation: quick_opacity 1s;
+}
+@keyframes quick_opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

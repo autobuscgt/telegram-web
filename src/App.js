@@ -6,37 +6,40 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import News from './pages/News';
 import TimeTable from './pages/TimeTable';
 import Homework from './pages/Homework';
-import Main from './pages/Main';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
+
+
+
 function App() {
   const { tg } = useTelegram();
 
   useEffect(() => {
     tg.ready();
   }, [tg])
+
   return (
     <Router>
       <div className="App">
-        <Header/>
+        <Header />
 
-        <NavBar/>
-        
+        <NavBar />
+
         <Routes>
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
           <Route exact path="/homework" Component={Homework} />
-          <Route exact path="/" Component={Main} />
+         
         </Routes>
-        
-        <News />
-        <Footer/>
+
+        <Footer />
       </div>
 
     </Router>
 
   );
 }
+
 
 export default App;

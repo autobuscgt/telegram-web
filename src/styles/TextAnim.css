@@ -26,7 +26,7 @@
 }
 
 .text-opacity{
-    animation: quick_opacity 1.5s;
+    animation: quick_opacity 1s;
 }
 @keyframes quick_opacity{
     0%{
