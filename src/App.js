@@ -15,15 +15,13 @@ function App() {
   return (
     <Router>
     <div className="App">
-    <header style={{padding:40,marginLeft:0}}>
+    <header style={{padding:'40px',marginLeft:0}}>
     <img src={logo} alt='logotype' class='logo' style={{float:'right',paddingBottom:15}}></img>
     <h1 style={{ fontFamily: 'MyCustomFont',fontSize:'32px',float:'left'}}>MKIT WEB APP</h1>
     </header>
     
-    <nav>
+    <nav style={{padding:'10 10 10 10'}}>
       <div style={{marginLeft:'2%',justifyContent:'center'}}>
-
-      
       <div class='containerdiv'>
         <div class='containerforfirstbtn' style={{marginLeft:'5px'}}>
                   <a href='/timetable'>
@@ -32,7 +30,6 @@ function App() {
                     </div>
                   </a>
         </div>
-        
         <div class='containerforsecondbtn'>
                     <a href='/homework'>
                       <div class='textinside'>
@@ -49,11 +46,8 @@ function App() {
                             </a>
                   </div>
       </div>
-
-
       </div>
     </nav>
-    
      <main>
       <p>
      

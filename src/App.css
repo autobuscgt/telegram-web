@@ -47,10 +47,10 @@ nav
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/1.svg');
- 
+    background-size: 100% 100%;
     color: white;
     margin-top: 0.5%;
-    margin-left: 2%;
+
     vertical-align: middle;
 }
 .containerforsecondbtn{
@@ -58,9 +58,9 @@ nav
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/2.svg');
-
+    background-size: 100% 100%;
     color: white;
-    margin-left: 2%;
+
     margin-top: 0.5%;
 }
 .containerforthirdbtn{
@@ -68,9 +68,9 @@ nav
     width: 140px;
     height: 140px;
     background-image: url('./images/buttons/3.svg');
-
+    background-size: 100% 100%;
     color: white; 
-    margin-left: 2%;
+
     margin-top: 0.5%;
 }
 .textinside{
