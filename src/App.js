@@ -54,8 +54,10 @@ function App() {
           <Route exact path="/timetable" Component={TimeTable} />
           <Route exact path="/homework" Component={Homework} />
         </Routes>
-        <footer class="cfooter">
-          <div class='textinside' style={{float:'left'}}>Создатель AUTOBUSCGT</div>
+        <footer>
+          <div class="cfooter">
+            <div class='textinside' style={{float:'left'}}>Создатель AUTOBUSCGT</div>
+          </div>
         </footer>
       </div>
     </Router>
