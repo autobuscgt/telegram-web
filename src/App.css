@@ -26,7 +26,8 @@ color:#3A35A7;
 
 }
 .logo{
-    position: fixed;
+    float: right;
+    position: relative;
     height: 47px;
 }
 nav
