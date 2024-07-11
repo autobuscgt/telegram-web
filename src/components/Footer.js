@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div>
             <footer>
-                <img src={logo} alt='logotype' class='logo' style={{  float: 'right' }}></img>
+                <a href='https://mkit.online'><img src={logo} alt='logotype' class='logo' style={{  float: 'right' }}></img></a>
                 <a href='https://github.com/autobuscgt' style={{ fontFamily: 'MyCustomFont', fontSize: '32px' ,margin:'5px'}} >
                     Создатель Autobus
                 </a>

@@ -3,11 +3,19 @@ import '../styles/App.css';
 import '../styles/Main.css'
 import '../styles/TextAnim.css'
 import '../styles/OpacityPrewie.css'
+import '../styles/MainTextAnim.css'
 function Main() {
     return (
-        <div style={{ padding: 10 }}>
-            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '24px' }} class='textwriter'>Добро пожаловать в<br/> WEB-ПРИЛОЖЕНИЕ MKIT!</h1>
-            <div class = 'text-opacity'>
+        <div style={{ padding: 10 }} class='for_main_div'>
+            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '24px' }} class='text-load' data-text="Добро пожаловать в">
+                Добро пожаловать в<br />
+            </h1>
+            <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '24px' }} class='text-load' data-text="WEB-ПРИЛОЖЕНИЕ MKIT!">
+                WEB-ПРИЛОЖЕНИЕ MKIT!
+            </h1>
+
+
+            <div class='text-opacity'>
 
 
                 <p class='perenos'>

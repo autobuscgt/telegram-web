@@ -1,11 +1,12 @@
 footer {
     display: inline-block;
     width: 100%;
-    background-color: #6d34aa;
+    background-color: #82cfff;
     color: #fff;
     transition: 1s;
 }
 .logo {
     position: relative;
-    height: 36px;
+    height: 32px;
+
 }
