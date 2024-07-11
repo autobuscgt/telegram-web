@@ -25,9 +25,9 @@ font-size: 32px;
 color:#3A35A7;
 
 }
-.logo{
+.logo{  
     float: right;
-    position: relative;
+    position: absolute;
     height: 47px;
 }
 nav
