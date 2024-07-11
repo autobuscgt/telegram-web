@@ -4,7 +4,7 @@ import '../styles/App.css';
 function Header(){
     return(
         <div>
-        <header style={{ margin: '45px 45px 45px 45px' }}>
+        <header>
         <h1 style={{ fontFamily: 'MyCustomFont'}} class='nameof'>MKIT WEB APP</h1>
         </header>
         </div>

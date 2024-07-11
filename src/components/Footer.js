@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/App.css';
 import logo from "../images/logotype.png";
-function Header() {
+function Footer() {
     return (
         <div>
             <footer style={{ margin: '45px 45px 45px 45px' }}>
@@ -10,4 +10,4 @@ function Header() {
         </div>
     );
 }
-export default Header;
+export default Footer;

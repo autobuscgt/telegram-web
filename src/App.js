@@ -9,6 +9,7 @@ import Homework from './pages/Homework';
 import Main from './pages/Main';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
+import Footer from './components/Footer';
 function App() {
   const { tg } = useTelegram();
 
