@@ -12,7 +12,8 @@
 }
 
 
-body{
+body
+{
     background: var(--tg-theme-bg-color);
     color: var(--tg-theme-bg-color);
     background-color: white;
@@ -86,7 +87,7 @@ nav
 }
 .textinside{
     font-family: 'MyCustomFont';
-    font-size: 24px;
+    font-size: 20px;
     text-shadow: 3px 2px #00000025;
     margin: 50px 0;
     text-align: center;
