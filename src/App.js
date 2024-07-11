@@ -24,6 +24,13 @@ function App() {
         <nav style={{ padding: '7 7 7 7' }}>
           <div style={{ marginLeft: '2%', justifyContent: 'center' }}>
             <div class='containerdiv'>
+              <div class='textinside'>
+                <a href="/">
+                  <div>
+                    Главная
+                  </div>
+                </a>
+              </div>
               <div class='containerforfirstbtn' style={{ marginLeft: '5px' }}>
                 <a href='/timetable'>
                   <div class='textinside'>
@@ -58,6 +65,7 @@ function App() {
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
           <Route exact path="/homework" Component={Homework} />
+          <Route exact path="/" Component={main} />
         </Routes>
  
       </div>
