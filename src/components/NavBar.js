@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/App.css';
-import './styles/Buttons.css';
+import '../styles/App.css';
+import '../styles/Buttons.css';
 function NavBar() {
     return (
         <div style={{marginTop:'2%'}}>
