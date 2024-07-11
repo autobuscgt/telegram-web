@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import News from './pages/News';
 import TimeTable from './pages/TimeTable';
 import Homework from './pages/Homework';
+import Main from './pages/Main';
 function App() {
   const { tg } = useTelegram();
 
@@ -56,18 +57,14 @@ function App() {
             </div>
           </div>
         </nav>
-        <footer>
-          <div class="cfooter">
-            <div class='textinside' style={{float:'left'}}>Создатель AUTOBUSCGT</div>
-          </div>
-        </footer>
+        
         <Routes>
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
           <Route exact path="/homework" Component={Homework} />
-          <Route exact path="/" Component={main} />
+          <Route exact path="/" Component={Main} />
         </Routes>
- 
+
       </div>
     </Router>
   );
