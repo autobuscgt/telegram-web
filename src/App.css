@@ -26,10 +26,11 @@ color:#3A35A7;
 
 }
 .logo{  
-    float: right;
+    top: 1.5%;
+    right: 100%;
     position: absolute;
     height: 47px;
-    margin-left: 15%;
+
 }
 nav
 {
