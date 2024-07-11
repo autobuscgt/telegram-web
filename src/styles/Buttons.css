@@ -16,7 +16,7 @@ button{
     outline: none;
     cursor: pointer;
     font-size: 100%;
-    margin-top: 2.5%;
+    vertical-align: middle;
     padding:10px;
     white-space: break-spaces;
 }
@@ -47,4 +47,19 @@ button{
     transform: scale(1.04);
     transition: 200ms;
 }
-
+#Nav4:hover {
+    background: #f52731;
+    box-shadow: 5px 5px 0px 0px #50001E;
+}
+#Nav3:hover {
+    background: #fca421;
+    box-shadow: 5px 5px 0px 0px #D17016;
+}
+#Nav2:hover {
+    background: #00bbff;
+    box-shadow: 5px 5px 0px 0px #0565BC;
+}
+#Nav1:hover {
+    background: #9ae201;
+    box-shadow: 5px 5px 0px 0px #008736;
+}

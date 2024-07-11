@@ -19,10 +19,11 @@ function App() {
     <Router>
       <div className="App">
 
-        <header style={{ padding: '30px' }}>
+        <header style={{padding:'30px 30px 30px 30px'}}>
           <img src={logo} alt='logotype' class='logo' style={{ paddingBottom: 15,float:'right'}}></img>
           <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '32px', float: 'left' }}>MKIT WEB APP</h1>
         </header>
+
         <NavBar/>
         <Routes>
           <Route exact path="/news" Component={News} />

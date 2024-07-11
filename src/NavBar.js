@@ -3,9 +3,9 @@ import './styles/App.css';
 import './styles/Buttons.css';
 function NavBar() {
     return (
-        <div>
+        <div style={{marginTop:'2%'}}>
             <nav style={{ paddingLeft: '1px' }}>
-                <div>
+                <div style={{padding:'15px'}}>
                     <button class='NavBar' id='Nav1' style={{ fontFamily: 'MyCustomFont' }}>
                         Главная
                     </button>
