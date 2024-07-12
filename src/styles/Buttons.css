@@ -69,11 +69,17 @@ button{
 
 @media (min-width: 450px) {
     .NavBar{
-        width: 85px;
-        height: 85px;
+        width: 90px;
+        height: 90px;
     }
   }
   @media (max-width: 450px) {
+    .NavBar{
+        width: 80px;
+        height: 80px;
+    }
+  }
+  @media (max-width: 390px) {
     .NavBar{
         width: 70px;
         height: 70px;
