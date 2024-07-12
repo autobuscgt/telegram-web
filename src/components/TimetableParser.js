@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import myTextfile from './AllGroups.txt'
 import '../styles/ParsedTest.css'
+
 function TextParser() {
-    
     const [data, setData] = useState([])
+    const [value, setValue] = useState('')
 
     useEffect(() => {
         fetch(myTextfile)
@@ -20,40 +21,41 @@ function TextParser() {
             })
             .catch(error => console.error('Ошибка при загрузке данных ', error))
     }, [])
+
     const formatGroup = (group) => {
         const weekDays = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница']
-        const formattedGroup = weekDays.reduce((result, weekDay) => {
+        let formattedGroup = weekDays.reduce((result, weekDay) => {
             const regex = new RegExp(weekDay, 'i')
             if (regex.test(result)) {
-                return result.replace(regex, `<h1 style="font-size: 20px">{${weekDay}}</h1>`)
+                return result.replace(regex, `<h1 class="weekday">${weekDay}</h1>`)
             }
             return result
         }, group)
 
+        // Перенос слов на новую строку после символа ";"
+        const semicolonRegex = /;/g
+        formattedGroup = formattedGroup.replace(semicolonRegex, ';\n')
+
         const groupRegex = /Группа/i
         if (groupRegex.test(formattedGroup)) {
-            return formattedGroup.replace(groupRegex, `<b>Дни недели</b>`)
+            return formattedGroup.replace(groupRegex, '<b>Дни недели</b>')
         }
 
         return formattedGroup
-        
-
     }
-    const [value,setValue] = useState('')
-    const filtered = data.filter(group =>{
+
+    const filtered = data.filter(group => {
         return group.toLowerCase().includes(value.toLowerCase())
     })
 
     return (
         <div>
-            <input type='text' placeholder='Введите группу...ГД-123 и т.д. О_о' class = 'input_box' onChange={(event)=>setValue(event.target.value)}>
-             </input>
+            <input type='text' placeholder='Введите группу... ГД-123 и т.д. О_о' className='input_box' onChange={(event) => setValue(event.target.value)} />
             <ul>
                 {filtered.map((group, index) => (
                     <li key={index} style={{ whiteSpace: 'pre-wrap', padding: '15px' }} dangerouslySetInnerHTML={{ __html: group }}></li>
                 ))}
             </ul>
-
         </div>
     )
 }
