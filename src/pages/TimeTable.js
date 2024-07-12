@@ -3,25 +3,16 @@ import '../styles/App.css';
 import '../styles/OpacityPrewie.css'
 import TextParser from '../components/TimetableParser'
 import '../styles/ParsedTest.css'
-function TimeTable() {
+const TimeTable = () => {
+
   return (
     <div>
-      <h1 style={{ fontFamily: 'MyCustomFont', fontSize: '40px' }}>Расписание</h1>
-      <select>
-        <option value={'9IS>'}>
-          9-ИС123
-        </option>
-        <option value={'9IS>'}>
-          9-ИС321
-        </option>
-        <option value={'9IS>'}>
-          9-ИС
-        </option>
-
-      </select>
-      <TextParser class = 'timetable'/>
+      <h1 style={{fontFamily:'MyCustomFont',fontSize:'42px'}}> Расписание </h1>
+      <ul>
+      <TextParser/>
+      </ul>
     </div>
   );
-}
+};
 
 export default TimeTable;

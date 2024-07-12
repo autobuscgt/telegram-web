@@ -4,3 +4,12 @@ b{
     font-size: 18px;
     font-family: BetterVCR;
 }
+.input_box{
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: none;
+    text-align: center;
+    border-color: rgb(85, 0, 255);
+    outline: none;
+}

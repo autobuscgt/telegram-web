@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import myTextfile from './AllGroups.txt'
-
+import '../styles/ParsedTest.css'
 function TextParser() {
+    
     const [data, setData] = useState([])
 
     useEffect(() => {
@@ -19,7 +20,6 @@ function TextParser() {
             })
             .catch(error => console.error('Ошибка при загрузке данных ', error))
     }, [])
-
     const formatGroup = (group) => {
         const weekDays = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница']
         const formattedGroup = weekDays.reduce((result, weekDay) => {
@@ -36,15 +36,24 @@ function TextParser() {
         }
 
         return formattedGroup
+        
+
     }
+    const [value,setValue] = useState('')
+    const filtered = data.filter(group =>{
+        return group.toLowerCase().includes(value.toLowerCase())
+    })
 
     return (
         <div>
+            <input type='text' placeholder='Введите группу...ГД-123 и т.д. О_о' class = 'input_box' onChange={(event)=>setValue(event.target.value)}>
+             </input>
             <ul>
-                {data.map((group, index) => (
-                    <li key={index} style={{ whiteSpace: 'pre-wrap' }} dangerouslySetInnerHTML={{ __html: group }}></li>
+                {filtered.map((group, index) => (
+                    <li key={index} style={{ whiteSpace: 'pre-wrap', padding: '15px' }} dangerouslySetInnerHTML={{ __html: group }}></li>
                 ))}
             </ul>
+
         </div>
     )
 }
