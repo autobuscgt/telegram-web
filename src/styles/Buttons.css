@@ -19,7 +19,7 @@ button{
     cursor: pointer;
     font-size: 100%;
     vertical-align: middle;
-    padding:10px;
+
     white-space: break-spaces;
     z-index: 2;
 }

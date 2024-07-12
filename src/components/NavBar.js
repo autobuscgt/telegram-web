@@ -14,7 +14,7 @@ function NavBar() {
     return (
         <div style={{ marginTop: '2%'}}>
             <nav>
-                <div style={{ padding: '15px' }}>
+                <div style={{ padding: '15px',textAlign:'center'}}>
                     <button class='NavBar' id='Nav1' style={{ fontFamily: 'MyCustomFont' }} onClick={() => handleClick('Main')}>
                         Главная
                     </button>
@@ -27,7 +27,6 @@ function NavBar() {
                     <button class='NavBar' id='Nav4' style={{ fontFamily: 'MyCustomFont' }} onClick={() => handleClick('News')}>
                         Новости
                     </button>
-
                 </div>
             </nav>
             <div style={{padding:'10px'}}>
