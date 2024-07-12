@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './styles/App.css';
-import './styles/Buttons.css'
+import './styles/NavBar.css'
 import { useTelegram } from "./hooks/usefulComponents";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import News from './pages/News';

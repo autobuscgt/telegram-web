@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
-import '../styles/Buttons.css';
+import '../styles/NavBar.css';
 import { useState } from 'react';
 import Main from '../pages/Main';
 import TimeTable from '../pages/TimeTable';
