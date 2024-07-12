@@ -53,7 +53,7 @@ function TextParser() {
             <input type='text' placeholder='Введите группу... ГД-123 и т.д. О_о' className='input_box' onChange={(event) => setValue(event.target.value)} />
             <ul>
                 {filtered.map((group, index) => (
-                    <li key={index} style={{ whiteSpace: 'pre-wrap', padding: '15px' }} dangerouslySetInnerHTML={{ __html: group }}></li>
+                    <li key={index} style={{ whiteSpace: 'pre-wrap', paddingTop:'15px' }} dangerouslySetInnerHTML={{ __html: group }}></li>
                 ))}
             </ul>
         </div>
