@@ -9,12 +9,12 @@ import Homework from './pages/Homework';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import ChooseOne from './components/ChooseOne';
 
 
 function App() {
-  const { tg } = useTelegram();
 
+  const { tg } = useTelegram();
   useEffect(() => {
     tg.ready();
   }, [tg])
@@ -23,16 +23,13 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-
         <NavBar />
-
         <Routes>
+          <Route exact path="/" Component={ChooseOne} />
           <Route exact path="/news" Component={News} />
           <Route exact path="/timetable" Component={TimeTable} />
           <Route exact path="/homework" Component={Homework} />
-         
         </Routes>
-
         <Footer />
       </div>
 

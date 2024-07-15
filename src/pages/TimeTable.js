@@ -9,7 +9,7 @@ const TimeTable = () => {
     <div>
       <h1 style={{fontFamily:'MyCustomFont',fontSize:'42px'}}> Расписание </h1>
       <ul>
-      <TextParser/>
+      <TextParser />
       </ul>
     </div>
   );

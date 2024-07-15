@@ -27,7 +27,7 @@ function TextParser() {
         let formattedGroup = weekDays.reduce((result, weekDay) => {
             const regex = new RegExp(weekDay, 'i')
             if (regex.test(result)) {
-                return result.replace(regex, `<h1 class="weekday">${weekDay}</h1>`)
+                return result.replace(regex, `<h1 class="weekday">{${weekDay}}</h1>`)
             }
             return result
         }, group)
@@ -49,7 +49,7 @@ function TextParser() {
     })
 
     return (
-        <div>
+        <div class='TimeTableContent'>
             <input type='text' placeholder='Введите группу... ГД-123 и т.д. О_о' className='input_box' onChange={(event) => setValue(event.target.value)} />
             <ul>
                 {filtered.map((group, index) => (
